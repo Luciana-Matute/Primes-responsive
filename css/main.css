@@ -56,3 +56,9 @@ color: #fff;
 	height: 100%;
 	position: relative;
 }
+
+@media (max-width: 767px){
+	.fondo-laptop{
+	background-size: center;	
+	}
+}
