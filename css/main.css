@@ -1,0 +1,58 @@
+/*navegador*/
+
+li a:hover{color:#18B9B6;}
+ 
+nav .container{padding: 1% 6%;}
+
+nav a{
+  font-weight: 700;
+  font-family: 'Montserrat'
+}
+
+nav h2{
+margin-top: 0 !important;
+}
+
+.navbar-default .navbar-nav > li > .active {
+color: #18bc9e;
+background-color: black;
+}
+
+.navbar-default .navbar-nav > li > .active:hover{
+color: #fff;
+}
+
+.navbar-default {
+  background-color: transparent;
+} 
+
+.navbar-default .navbar-toggle {border-color: white;}
+
+
+#menu.active {
+	background-color: #4baac2;
+  	webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
+	transform: translateY(0);
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-transform: translateZ(0);
+}
+
+/*esta parte es de la imagen de la laptop*/
+.fondo-laptop{
+	background-image: url(../img/background/hero.jpg);
+	height: 800px;
+	background-size: cover;	
+
+}
+.fondo-negro{
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+	height: 100%;
+	position: relative;
+}
